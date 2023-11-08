@@ -1,0 +1,7 @@
+*.pyc
+*.xlsx
+*.pickle
+
+.vscode/
+__pycache__/
+data/
