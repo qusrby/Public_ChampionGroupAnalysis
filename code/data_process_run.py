@@ -5,7 +5,7 @@ import riot_api_request_module as rar  # 라이엇 API 관련
 import data_process_module as dc
 
 # 기본 설정
-with open('api_key.txt', 'r') as file:
+with open('api_key.txt', 'r', encoding='utf-8') as file:
     ak = file.read().strip()  # 파일에서 읽은 내용에서 앞뒤 공백 제거
 queue = rar.DEFAULT_QUEUE  # 게임의 기본 큐 타입
 
